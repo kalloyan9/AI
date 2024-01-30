@@ -3,6 +3,7 @@ the goal is to collect all coins.
 the goal of your enemies is to catch you
 to start the game open cmd in the current dir of the pacman.py file and type in the console: python pacman.py
 then play with W, A, S, D!
+This game uses AI for the movement of the ghosts!
 
 
 game legend:
@@ -14,7 +15,7 @@ RED - ghost
 you win the game if you collect all of the coins
 you lose the game if any ghost catches you
 
-algorithms used:
+algorithms used by user's enemies(AI):
 Astar (with manhattan's distance heuristic)
 DFS
 
